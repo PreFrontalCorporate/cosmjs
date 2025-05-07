@@ -102,18 +102,6 @@ const RAW_RUNTIME_STATE =
   ],\
   "fallbackPool": [\
     [\
-      "@agoric/babel-standalone",\
-      "npm:7.9.5"\
-    ],\
-    [\
-      "@agoric/make-hardener",\
-      "npm:0.1.3"\
-    ],\
-    [\
-      "@agoric/transform-module",\
-      "npm:0.4.1"\
-    ],\
-    [\
       "@ampproject/remapping",\
       "npm:2.2.1"\
     ],\
@@ -274,6 +262,10 @@ const RAW_RUNTIME_STATE =
       "npm:0.5.3"\
     ],\
     [\
+      "@endo/env-options",\
+      "npm:1.1.8"\
+    ],\
+    [\
       "@eslint/eslintrc",\
       "npm:0.4.1"\
     ],\
@@ -319,7 +311,7 @@ const RAW_RUNTIME_STATE =
     ],\
     [\
       "@koa/cors",\
-      "npm:3.3.0"\
+      "npm:5.0.0"\
     ],\
     [\
       "@ledgerhq/devices",\
@@ -2447,7 +2439,7 @@ const RAW_RUNTIME_STATE =
     ],\
     [\
       "ses",\
-      "npm:0.11.1"\
+      "npm:1.12.0"\
     ],\
     [\
       "set-blocking",\
@@ -2909,33 +2901,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["@agoric/babel-standalone", [\
-      ["npm:7.9.5", {\
-        "packageLocation": "./.yarn/cache/@agoric-babel-standalone-npm-7.9.5-d7c88bfb35-d5bae2402a.zip/node_modules/@agoric/babel-standalone/",\
-        "packageDependencies": [\
-          ["@agoric/babel-standalone", "npm:7.9.5"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@agoric/make-hardener", [\
-      ["npm:0.1.3", {\
-        "packageLocation": "./.yarn/cache/@agoric-make-hardener-npm-0.1.3-8f4efdb7f1-6fc9231218.zip/node_modules/@agoric/make-hardener/",\
-        "packageDependencies": [\
-          ["@agoric/make-hardener", "npm:0.1.3"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@agoric/transform-module", [\
-      ["npm:0.4.1", {\
-        "packageLocation": "./.yarn/cache/@agoric-transform-module-npm-0.4.1-65094eb3d8-94d9d66044.zip/node_modules/@agoric/transform-module/",\
-        "packageDependencies": [\
-          ["@agoric/transform-module", "npm:0.4.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["@ampproject/remapping", [\
       ["npm:2.2.1", {\
         "packageLocation": "./.yarn/cache/@ampproject-remapping-npm-2.2.1-3da3d624be-92ce5915f8.zip/node_modules/@ampproject/remapping/",\
@@ -3261,7 +3226,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3365,7 +3330,7 @@ const RAW_RUNTIME_STATE =
           ["pako", "npm:2.0.3"],\
           ["prettier", "npm:2.8.8"],\
           ["readonly-date", "npm:1.0.0"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3418,7 +3383,7 @@ const RAW_RUNTIME_STATE =
           ["libsodium-wrappers-sumo", "npm:0.7.11"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3464,7 +3429,7 @@ const RAW_RUNTIME_STATE =
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
           ["readonly-date", "npm:1.0.0"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3487,7 +3452,7 @@ const RAW_RUNTIME_STATE =
           ["@cosmjs/stargate", "workspace:packages/stargate"],\
           ["@cosmjs/utils", "workspace:packages/utils"],\
           ["@istanbuljs/nyc-config-typescript", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.0.1"],\
-          ["@koa/cors", "npm:3.3.0"],\
+          ["@koa/cors", "npm:5.0.0"],\
           ["@types/eslint-plugin-prettier", "npm:3.1.0"],\
           ["@types/jasmine", "npm:4.6.1"],\
           ["@types/koa", "npm:2.13.4"],\
@@ -3508,7 +3473,7 @@ const RAW_RUNTIME_STATE =
           ["koa-bodyparser", "npm:4.3.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typescript", "patch:typescript@npm%3A4.9.5#optional!builtin<compat/typescript>::version=4.9.5&hash=289587"],\
@@ -3550,7 +3515,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3592,7 +3557,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3641,7 +3606,7 @@ const RAW_RUNTIME_STATE =
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
           ["semver", "npm:7.5.4"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3685,7 +3650,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3735,7 +3700,7 @@ const RAW_RUNTIME_STATE =
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
           ["protobufjs", "npm:7.4.0"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3779,7 +3744,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3834,7 +3799,7 @@ const RAW_RUNTIME_STATE =
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
           ["readonly-date", "npm:1.0.0"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3876,7 +3841,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3928,7 +3893,7 @@ const RAW_RUNTIME_STATE =
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
           ["readonly-date", "npm:1.0.0"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3972,7 +3937,7 @@ const RAW_RUNTIME_STATE =
           ["karma-jasmine-html-reporter", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:1.6.0"],\
           ["nyc", "npm:15.1.0"],\
           ["prettier", "npm:2.8.8"],\
-          ["ses", "npm:0.11.1"],\
+          ["ses", "npm:1.12.0"],\
           ["source-map-support", "npm:0.5.21"],\
           ["ts-node", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:8.10.2"],\
           ["typedoc", "virtual:4f1584ad4aba8733a24be7c8aebbffafef25607f2d00f4b314cf96717145c692763628a31c2b85d4686fbb091ff21ebffa3cc337399c042c19a32b9bdb786464#npm:0.23.28"],\
@@ -3988,6 +3953,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@discoveryjs-json-ext-npm-0.5.3-d076e2bd24-73789df18a.zip/node_modules/@discoveryjs/json-ext/",\
         "packageDependencies": [\
           ["@discoveryjs/json-ext", "npm:0.5.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@endo/env-options", [\
+      ["npm:1.1.8", {\
+        "packageLocation": "./.yarn/cache/@endo-env-options-npm-1.1.8-8dbaeb82e1-2f519f48a5.zip/node_modules/@endo/env-options/",\
+        "packageDependencies": [\
+          ["@endo/env-options", "npm:1.1.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4169,10 +4143,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@koa/cors", [\
-      ["npm:3.3.0", {\
-        "packageLocation": "./.yarn/cache/@koa-cors-npm-3.3.0-0564248a2f-41d2bac9aa.zip/node_modules/@koa/cors/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "./.yarn/cache/@koa-cors-npm-5.0.0-693911adf6-49e5f3b861.zip/node_modules/@koa/cors/",\
         "packageDependencies": [\
-          ["@koa/cors", "npm:3.3.0"],\
+          ["@koa/cors", "npm:5.0.0"],\
           ["vary", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
@@ -11532,13 +11506,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ses", [\
-      ["npm:0.11.1", {\
-        "packageLocation": "./.yarn/cache/ses-npm-0.11.1-82b4f2a77b-0199b8830c.zip/node_modules/ses/",\
+      ["npm:1.12.0", {\
+        "packageLocation": "./.yarn/cache/ses-npm-1.12.0-0dc3550a7b-3ce5ca1161.zip/node_modules/ses/",\
         "packageDependencies": [\
-          ["ses", "npm:0.11.1"],\
-          ["@agoric/babel-standalone", "npm:7.9.5"],\
-          ["@agoric/make-hardener", "npm:0.1.3"],\
-          ["@agoric/transform-module", "npm:0.4.1"]\
+          ["ses", "npm:1.12.0"],\
+          ["@endo/env-options", "npm:1.1.8"]\
         ],\
         "linkType": "HARD"\
       }]\
